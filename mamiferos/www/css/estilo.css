@@ -1,0 +1,31 @@
+/*propiedades de toda la página*/
+	*{
+
+		font-family: Arial Narrow;
+		font-size: 20px;
+		background-color: rgba(238,249,244,0.3);
+
+	}
+/*div que contiene toda la página*/
+	#contenedor{
+
+		width: 900px;
+				 	background-color: rgba(182, 157, 157, 0.2);
+				 	margin: 0 auto;
+				 	height: 900px;
+	}
+/*propiedades de la tabla que trae los registros de la base de datos*/
+	#tabla_registros
+	{
+		position: relative;
+		width: 600px;
+		height: 100px;
+		background-color:rgba(103,223,73,1);
+		-moz-border-radius:10px;
+	    -webkit-border-radius:10px;
+	    border-radius:10px
+
+
+
+
+}
